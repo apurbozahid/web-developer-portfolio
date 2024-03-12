@@ -27,12 +27,14 @@ body{
     color: #181818;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .section-description{
     font-size: 18px;
     text-align: center;
     color: #757575;
+    margin-bottom: 20px;
 
 }
 
@@ -113,6 +115,11 @@ nav a {
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section syles */
 
 .about{
@@ -120,4 +127,39 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     margin-top: 130px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info{
+    text-align: center;
+
+}
+
+.info-title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.info-description{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    
+}
+#what-i-do-description{
+    padding: 20px 150px;
+}
+
+.about-section{
+    margin-top: 40px;
+}
+
+.skills-container{
+    display: flex;
 }
