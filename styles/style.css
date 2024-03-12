@@ -121,7 +121,7 @@ main{
 
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 /* about section syles */
@@ -215,5 +215,50 @@ main section{
 
 .download-cv{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
+
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 200px;
+    /* justify-content: space-between; */
+    gap: 250px;
+    
+}
+
+.footer-column{
+    /* justify-content: space-between; */
+    width: 50%;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%
+}
+
+.footer-description{
+    text-align: ;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.social-links a{
+    margin-right: 20px;
+}
+
